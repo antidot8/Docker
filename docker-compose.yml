@@ -7,6 +7,6 @@ services:
     volumes:
       - ./data:/var/lib/postgresql
     environment:
-      - MYSQL_DATABASE=pgdb
-      - MYSQL_USER=user
-      - MYSQL_PASSWORD=pass
+      - POSTGRES_DB=pgdb
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
